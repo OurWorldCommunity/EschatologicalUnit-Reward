@@ -155,7 +155,7 @@ class DoGet extends BukkitRunnable
 				this.cancel();
 				return;
 			}
-			String[] cmds = (String[]) smyhw.Reward_cmd.toArray();
+			String[] cmds = smyhw.Reward_cmd.toArray(new String[0]);
 			for(int i=0;i<cmds.length;i++)
 			{
 				String cmd = cmds[i];

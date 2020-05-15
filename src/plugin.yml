@@ -1,0 +1,8 @@
+name: EschatologicalUnit.Reward
+main: online.smyhw.EschatologicalUnit.Reward.smyhw
+version: 1.0.0
+author: smyhw
+commands:
+  euR:
+    description: euR
+    usage: /<command>
